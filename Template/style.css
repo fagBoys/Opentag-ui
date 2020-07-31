@@ -2,9 +2,15 @@
   font-family: CenturyGothic;
   src: url("assets/fonts/Century_Gothic.ttf");
 }
+
+body.body-style
+{
+  font-family: CenturyGothic;
+}
+
 section
 {
-  height: 70vh !important;
+  height: auto;
 }
 
 section.section-style
@@ -34,6 +40,23 @@ section.section-style-footer
 {
   height: 70vh !important;
   background-color: #111111;
+}
+
+.logo-bold-style
+{
+  float:left;
+  font-weight: bold;
+  margin-top:1vh;
+  color:white;
+}
+
+.logo-light-style
+{
+  float:left;
+  margin-top:2.8vh;
+  margin-left: 0.5vh;
+  color:white;
+  font-size:2vh;
 }
 
 .menu
@@ -66,4 +89,62 @@ li.menu-item
   width:120px;
   list-style-type: none;
   color: white;
+}
+
+.menu-text-style
+{
+  font-weight: bold;
+}
+
+.section1-maintext-style
+{
+  margin-top: 35%;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: bold;
+  color:white;
+}
+
+.section1-slogan-style
+{
+  text-align: center;
+  font-size: 4.3vh;
+  color:white;
+}
+
+.heading-style
+{
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.technologies-row-style
+{
+  margin-bottom: 100px;
+}
+
+.technologies-box-style
+{
+  margin-top: 50px;
+}
+
+.technologies-image-style
+{
+  text-align: center;
+  padding: 10px;
+}
+
+.technologies-title-style
+{
+  text-align: center;
+  padding: 10px;
+}
+
+.technologies-text-style
+{
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+  padding: 10px;
 }
