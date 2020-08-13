@@ -326,14 +326,25 @@ technologies-row-style
     text-align: center;
     margin: auto;
     width: 100%;
+    padding-bottom: 80px;
 }
 
 .services-box-style
 {
     text-align: center;
+    margin-top: 80px;
 }
 
 .services-title-style
 {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    font-weight: bold; 
+}
+.services-paragraph-style
+{
+    text-align: justify;
+    margin-left: 40px;
     
 }
