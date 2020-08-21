@@ -348,3 +348,19 @@ technologies-row-style
     margin-left: 40px;
     
 }
+
+
+
+
+.members-row-style
+{
+    padding-top: 50px;
+
+}
+
+.members-box-style
+{
+    padding-bottom: 90px;
+    font-size:2vh;
+font-weight: bold;
+}
