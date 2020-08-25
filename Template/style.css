@@ -360,22 +360,64 @@ technologies-row-style
     font-size:2vh;
     font-weight: bold;
 }
+.members-text-style
+{
+
+padding-top: 35px;
+
+}
 .footer-row-style
 {
     color: gainsboro;
+    text-align: center;
     text-align: j;
     margin: auto;
     width: 100%;
+    margin-left: 50px;
+    padding-right: 50px;
 }
+
+
+
+ 
+
+
+
 section.section-style-footer
 {
-  height: 50vh !important;
+  height: 70vh !important;
   background-color: #111111;
   text-align: center;
   margin: auto;
   width: 100%;
+padding-left: 10%;
+    padding-right: 10%;
 }
-.footer-content-style
+.footer-content-sitemap-style
+{
+text-align: justify;
+padding-top: 50px;
+font-weight:600;
+font-size:2.5vh;
+}
+.footer-title-style
+{
+padding-top:70px;
+text-align: center;
+padding-right: 30%;
+padding-left:  30%;
+
+
+}
+.footer-content-about-style
+{
+text-align: justify;
+padding-top: 50px;
+
+
+font-size:2.5vh;
+}
+.footer-content-contacts-style
 {
 text-align: justify;
 padding-top: 50px;
@@ -383,7 +425,13 @@ padding-left: 70px;
 font-weight:600;
 font-size:2.5vh;
 }
-.footer-title-style
+h4.footer-title-style
 {
-padding-top:70px;
+
+padding-top:50px;
+font-weight: bold;
+text-align: center;
+padding-right: 50%;
+padding-left:  10%;
+
 }
