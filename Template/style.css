@@ -281,38 +281,7 @@ a.menu-text-style:hover
 
 
 
-/*
-technologies-row-style
-{
-  margin-bottom: 100px;
-}
 
-.technologies-box-style
-{
-  margin-top: 50px;
-}
-
-.technologies-image-style
-{
-  text-align: center;
-  padding: 10px;
-}
-
-.technologies-title-style
-{
-  text-align: center;
-  padding: 10px;
-}
-
-.technologies-text-style
-{
-  margin: auto;
-  width: 70%;
-  text-align: justify;
-  padding: 10px;
-}
-
-*/
 
 
 .services-row-style
@@ -377,11 +346,6 @@ padding-top: 35px;
 }
 
 
-
- 
-
-
-
 section.section-style-footer
 {
   
@@ -398,6 +362,7 @@ text-align: justify;
 padding-top: 50px;
 font-weight:600;
 font-size:2.5vh;
+float: left;
 
 }
 .footer-title-style
@@ -408,6 +373,7 @@ text-align: center;
 
 
 }
+
 .footer-content-about-style
 {
 text-align: justify;
@@ -416,13 +382,14 @@ padding-top: 50px;
 
 font-size:2.5vh;
 }
+
 .footer-content-contacts-style
 {
 text-align: justify;
 padding-top: 50px;
+float: right;
 
-padding-bottom:50px;
-font-weight:600;
+
 font-size:2.5vh;
 }
 h4.footer-title-style
@@ -433,10 +400,11 @@ font-weight: bold;
 text-align: center;
 
 }
+
 .footer-box-style
 {
 
-
+padding-bottom: 120px;
 
 }
 .last-content
