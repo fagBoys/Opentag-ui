@@ -38,32 +38,37 @@ section.section-style-main
 }
 
 
+.logo-style
+{
+  opacity: 100%;
+}
 
 .logo-bold-style
 {
   float:left;
   font-weight: bold;
-  margin-top:1vh;
-  color:white;
+  margin-top:0.5vh;
+  color:black;
 }
 
 .logo-light-style
 {
   float:left;
-  margin-top:2.8vh;
+  margin-top:2.3vh;
   margin-left: 0.5vh;
-  color:white;
+  color:black;
   font-size:2vh;
 }
 
 .menu
 {
   position: absolute;
-  background-color: white;
+
   width: 100%;
-  height: 80px;
+  min-height: 80px;
   opacity: 20%;
-  z-index: 2;
+  z-index: 10;
+  background-color: inherit;
 }
 .menu-content
 {
@@ -75,9 +80,10 @@ section.section-style-main
 
 ul.menu-style
 {
-  float: right;
+  float: left;
   height: 100%;
-  padding-top: 25px;
+  padding-top: 10px;
+  text-align: center;
 }
 
 li.menu-item
@@ -86,24 +92,25 @@ li.menu-item
   width:120px;
   list-style-type: none;
   color: white;
+  padding-top: 5px;
 }
 
 a.menu-text-style
 {
   font-weight: bold;
-  color: white;
+  color: black;
 }
 
 a.menu-text-style:hover
 {
   font-weight: bold;
-  color: white;
+  color: #00c2ff;
   text-decoration: none;
 }
 
 .section1-maintext-style
 {
-  margin-top: 35%;
+  margin-top: 40%;
   text-align: center;
   font-size: 10vh;
   font-weight: bold;
@@ -149,7 +156,7 @@ a.menu-text-style:hover
 .technologies-text-style
 {
   margin: auto;
-  width: 70%;
+  width: 75%;
   text-align: justify;
   padding: 10px;
 }
@@ -171,15 +178,15 @@ a.menu-text-style:hover
 .about-text-style
 {
   margin-top: 5vh;
-  margin-bottom: 15vh;
+  padding-bottom: 5vh;
 }
 
 .about-paragraph-style
 {
-  font-size: 3vh;
+  font-size: 2.3vh;
   text-align: justify;
   color: white;
-  line-height: 5.5vh;
+  line-height: 5vh;
 }
 
 .contact-image-style
@@ -286,18 +293,18 @@ a.menu-text-style:hover
 
 .services-row-style
 {
-    margin-bottom: 100px;
     color: white;
     text-align: center;
-    margin: auto;
-    width: 100%;
+    margin: 0 auto;
     padding-bottom: 80px;
 }
 
 .services-box-style
 {
+  margin: 0 auto;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 50px;
+
 }
 
 .services-title-style
@@ -305,13 +312,13 @@ a.menu-text-style:hover
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 .services-paragraph-style
 {
     text-align: justify;
-    margin-left: 40px;
-    
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -328,6 +335,7 @@ a.menu-text-style:hover
     padding-bottom: 90px;
     font-size:2vh;
     font-weight: bold;
+    text-align: center;
 }
 .members-text-style
 {
@@ -335,78 +343,77 @@ a.menu-text-style:hover
 padding-top: 35px;
 
 }
-.footer-row-style
-{
-    color: gainsboro;
-    text-align: center;
-    text-align: j;
-    margin: auto;
-    width: 100%;
-    height: auto;
-}
-
 
 section.section-style-footer
 {
-  
+
   background-color: #111111;
   text-align: center;
   margin: auto;
   width: 100%;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-.footer-content-sitemap-style
-{
-text-align: justify;
-padding-top: 50px;
-font-weight:600;
-font-size:2.5vh;
-float: left;
+  padding-left: 5%;
+  padding-right: 5%;
 
 }
+
+.footer-row-style
+{
+  padding-bottom: 50px;
+  height: auto;
+}
+
+.footer-box-style
+{
+  padding-top:70px;
+  height: auto;
+}
+
 .footer-title-style
 {
-padding-top:70px;
-text-align: center;
+  text-align: center;
+  color: white;
+}
 
-
-
+.footer-content-sitemap-style
+{
+  text-align: justify;
+  padding-top: 50px;
+  font-weight:600;
+  font-size:2.5vh;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .footer-content-about-style
 {
-text-align: justify;
-padding-top: 50px;
-
-
-font-size:2.5vh;
+  padding-top: 50px;
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+  font-size:2.5vh;
+  color: white;
 }
 
 .footer-content-contacts-style
 {
-text-align: justify;
-padding-top: 50px;
-float: right;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 80%;
+  text-align: left;
+  color: white;
+  text-align: justify;
 
-
-font-size:2.5vh;
+  font-size:2.5vh;
 }
+
 h4.footer-title-style
 {
 
-padding-top:50px;
 font-weight: bold;
 text-align: center;
 
 }
 
-.footer-box-style
-{
-
-padding-bottom: 120px;
-
-}
 .last-content
 {
 
@@ -430,8 +437,8 @@ padding-bottom: 15px;
   font-weight: bold;
   margin-top:1vh;
   color:white;
-  
-    
+
+
 }
 
 .last-logo-light-style
@@ -442,5 +449,3 @@ padding-bottom: 15px;
   color:white;
   font-size:2vh;
 }
-
-
