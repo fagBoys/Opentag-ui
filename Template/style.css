@@ -28,7 +28,7 @@ section.section-style-blue
 
 section.section-style-main
 {
-  background-image:url("assets/images/Main.jpg");
+
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -37,6 +37,11 @@ section.section-style-main
   z-index: 1;
 }
 
+.slider-image
+{
+  object-fit: cover;
+  height:100vh;
+}
 
 .logo-style
 {
